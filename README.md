@@ -4,6 +4,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### npm run dev
+
+Runs the application in port 3006. The rendering is server side. Open http://localhost:3006 to view it in your browser
+
+### axios for api calls
+
+Axios library has been used to fetch data from given apis
+
+### .babelrc.json
+
+sets the preset and  plugins
+
+### webpack
+
+The application bundle is created in dex.json
+
+### express
+
+Runs the react app component in port 3006 server to enhance SEO
+
+### Please note: The desired image link was not working, so used a different image link with same template.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -67,24 +90,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### npm run dev
-
-Runs the application in port 3006. The rendering is server side.
-
-### axios for api calls
-
-Axios library has been used to fetch data from given apis
-
-### .babelrc.json
-
-sets the preset and  plugins
-
-### webpack
-
-The application bundle is created in dex.json
-
-### express
-
-Runs the react app component in port 3006 server to enhance SEO
-
-### Please note: The desired image link was not working, so used a different image link with same template.
