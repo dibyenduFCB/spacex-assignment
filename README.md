@@ -87,4 +87,4 @@ The application bundle is created in dex.json
 
 Runs the react app component in port 3006 server to enhance SEO
 
-Please note: The desired image link was not working, so used a different image link with same template.
+### Please note: The desired image link was not working, so used a different image link with same template.
