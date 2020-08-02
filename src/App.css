@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #cad0d6;
+  padding-left: 30px;
+}
+
+.body-class {
+  background-color: #cad0d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.filter-list-box {
+  background-color: rgb(253, 249, 244);
+  border: 1px solid #c2c3c4;
+  border-radius: 2px;
+  width: 80%;
+  padding: 30px;
+  margin: 10px;
+}
+
+.filter-list-box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.each-content {
+  width: 100px;
+  display: flex;
+}
+
+.button {
+  color: #000000;
+  background-color: #7be08c;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #7be08c;
+  border-radius: 5px;
+  width: 50px;
+  margin: 20px auto;
+}
+
+.main {
+  width: 85%;
+}
+
+.filtered-data {
+  background-color: rgb(253, 249, 244);
+  border: 1px solid #c2c3c4;
+  border-radius: 2px;
+  
+  padding: 30px;
+  margin: 10px;
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.section {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.image-body {
+  background-color: #808080;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.label-section {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.image-title {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 700px) {
+  .body-class {
+    background-color: #cad0d6;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .filter-list-box {
+    width: auto;
+  }
+
+
+  .filtered-data {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .filtered-data {
+    width: 22%;
+  }
+}
