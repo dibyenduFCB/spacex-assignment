@@ -1,1 +1,1 @@
-web: npm-run-all --parallel build dev:*
+web:node ./server-build/index.js
